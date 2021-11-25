@@ -1,0 +1,17 @@
+{
+    "name": "iamxcd/url-push",
+    "authors": [
+        {
+            "name": "x",
+            "email": "songbai_x@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "jaeger/querylist": "^4.2",
+        "jaeger/querylist-rule-baidu": "^4.0"
+    },
+    "require-dev": {
+        "clue/phar-composer": "^1.2"
+    }
+}
