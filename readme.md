@@ -11,10 +11,16 @@
 ```
 <?php
 
-// 你的域名
-const SITE = "www.xxx.com";
-// 百度API给你分配的TOKEN
-const TOKEN = "xxxxxxxx";
+return [
+    // 你的域名
+    'site' => "www.xxx.com",
+    // 百度API给你分配的TOKEN
+    'token' => "xxxxx",
+    'sitemap' => [
+        'wordpress' => null
+    ]
+];
+
 
 ```
 

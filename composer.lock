@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1ccb82a109d0c380e97028b7ea41086",
+    "content-hash": "f215be4e448784f91f9a9c8843748688",
     "packages": [
         {
             "name": "cache/adapter-common",
@@ -774,6 +774,81 @@
                 "source": "https://github.com/jae-jae/QueryList-Rule-Baidu/tree/4.0.2"
             },
             "time": "2020-09-29T02:44:07+00:00"
+        },
+        {
+            "name": "laravie/parser",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravie/parser.git",
+                "reference": "e4f72a458ea7644702a48d352447b6030f1b8555"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravie/parser/zipball/e4f72a458ea7644702a48d352447b6030f1b8555",
+                "reference": "e4f72a458ea7644702a48d352447b6030f1b8555",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "php": ">=7.1",
+                "tightenco/collect": "^5.6.16 || ^6.0 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.1",
+                "phpunit/phpunit": "^7.5 || ^8.4 || ^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravie\\Parser\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "XML Document Parser for PHP",
+            "keywords": [
+                "parser",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/laravie/parser/issues",
+                "source": "https://github.com/laravie/parser/tree/v2.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/crynobone",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://liberapay.com/crynobone",
+                    "type": "liberapay"
+                }
+            ],
+            "time": "2020-09-11T07:25:55+00:00"
         },
         {
             "name": "league/flysystem",
