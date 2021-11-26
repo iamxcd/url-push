@@ -4,11 +4,13 @@
 
 ## 使用说明
 
-不会php普通用户可以只下载 url-push.phar 文件，复制到你的服务器，按照下面配置好就能执行。
+不会php普通用户可以只下载 [url-push.phar](./url-push.phar) 文件，复制到你的服务器，按照下面配置好就能执行。
 
 ### 创建配置文件
 
 在脚本同目录下创建 config.php 文件，复制以下内容，调整成自己的配置信息。
+
+或者将config.tpl.php 改名为 config.php
 
 ```
 <?php

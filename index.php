@@ -134,8 +134,15 @@ class UrlPush
 }
 
 // 导入配置
-$config = require getcwd() . '/config.php';
+if (file_exists(getcwd() . '/config.php')) {
+    $config = require getcwd() . '/config.php';
+} else {
+    echo "配置文件 config.php 不存在" . PHP_EOL;
+    die;
+}
+
 $push = new UrlPush($config['site'], $config['token']);
+
 $urls = [];
 
 if (isset($config['sitemap']['wordpress']) &&  !!$config['sitemap']['wordpress']) {
